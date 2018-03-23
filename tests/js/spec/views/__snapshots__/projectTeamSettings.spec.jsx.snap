@@ -21,10 +21,12 @@ exports[`ProjectTeamsSettings render() renders 1`] = `
             items={
               Array [
                 Object {
-                  "label": <TeamDropdownElement>
+                  "label": <div
+                    className="css-1lqeu7x-teamsToAdd-teamsToAdd"
+                  >
                     #
                     team-slug-2
-                  </TeamDropdownElement>,
+                  </div>,
                   "searchKey": "team-slug-2",
                   "value": "2",
                 },
@@ -33,50 +35,49 @@ exports[`ProjectTeamsSettings render() renders 1`] = `
             menuHeader={
               <StyledTeamsLabel>
                 Teams
-                <StyledCreateTeamLink
+                <Link
+                  style={
+                    Object {
+                      "float": "right",
+                    }
+                  }
                   to="/organizations/org-slug/teams/new/"
                 >
                   Create Team
-                </StyledCreateTeamLink>
+                </Link>
               </StyledTeamsLabel>
             }
             onSelect={[Function]}
           />
         </div>
       </PanelHeader>
-      <PanelBody
-        direction="column"
-        disablePadding={true}
-        flex={false}
-      >
-        <TeamRow
-          access={
-            Set {
-              "org:read",
-              "org:write",
-              "org:admin",
-              "project:read",
-              "project:write",
-              "project:admin",
-              "team:read",
-              "team:write",
-              "team:admin",
-            }
+      <TeamRow
+        access={
+          Set {
+            "org:read",
+            "org:write",
+            "org:admin",
+            "project:read",
+            "project:write",
+            "project:admin",
+            "team:read",
+            "team:write",
+            "team:admin",
           }
-          key="1"
-          onRemove={[Function]}
-          orgId="org-slug"
-          projectId="project-slug"
-          team={
-            Object {
-              "id": "1",
-              "name": "Team Name",
-              "slug": "team-slug",
-            }
+        }
+        key="1"
+        onRemove={[Function]}
+        orgId="org-slug"
+        projectId="project-slug"
+        team={
+          Object {
+            "id": "1",
+            "name": "Team Name",
+            "slug": "team-slug",
           }
-          teamCount={1}
-        />
-      </PanelBody>
+        }
+        teamCount={1}
+      />
     </Panel>
   </div>
 </SideEffect(DocumentTitle)>

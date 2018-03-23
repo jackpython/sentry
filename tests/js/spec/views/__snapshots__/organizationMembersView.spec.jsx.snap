@@ -57,7 +57,8 @@ exports[`OrganizationMembersView No Require Link does not have 2fa warning if us
   border-bottom: 1px solid;
   border-radius: 0 0;
   line-height: 1;
-  padding: 15px 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .glamor-28 {
@@ -80,7 +81,8 @@ exports[`OrganizationMembersView No Require Link does not have 2fa warning if us
   border-bottom: 1px solid;
   border-radius: 0 0;
   line-height: 1;
-  padding: 15px 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .glamor-19 {
@@ -1388,7 +1390,8 @@ exports[`OrganizationMembersView Require Link does not have 2fa warning if user 
   border-bottom: 1px solid;
   border-radius: 0 0;
   line-height: 1;
-  padding: 15px 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .glamor-28 {
@@ -1411,7 +1414,8 @@ exports[`OrganizationMembersView Require Link does not have 2fa warning if user 
   border-bottom: 1px solid;
   border-radius: 0 0;
   line-height: 1;
-  padding: 15px 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .glamor-19 {

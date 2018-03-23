@@ -42,7 +42,8 @@ exports[`AuditLogView renders 1`] = `
   border-bottom: 1px solid;
   border-radius: 0 0;
   line-height: 1;
-  padding: 15px 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .glamor-15 {
@@ -65,7 +66,8 @@ exports[`AuditLogView renders 1`] = `
   border-bottom: 1px solid;
   border-radius: 0 0;
   line-height: 1;
-  padding: 15px 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .glamor-6 {

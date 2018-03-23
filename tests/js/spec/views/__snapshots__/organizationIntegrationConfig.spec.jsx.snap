@@ -61,7 +61,8 @@ exports[`OrganizationIntegrationConfig render() with one integration renders 1`]
   border-bottom: 1px solid;
   border-radius: 0 0;
   line-height: 1;
-  padding: 8px 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .glamor-17 {
@@ -84,7 +85,8 @@ exports[`OrganizationIntegrationConfig render() with one integration renders 1`]
   border-bottom: 1px solid;
   border-radius: 0 0;
   line-height: 1;
-  padding: 8px 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .glamor-10 {
