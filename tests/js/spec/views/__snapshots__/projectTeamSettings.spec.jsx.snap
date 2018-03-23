@@ -21,12 +21,10 @@ exports[`ProjectTeamsSettings render() renders 1`] = `
             items={
               Array [
                 Object {
-                  "label": <div
-                    className="css-1lqeu7x-teamsToAdd-teamsToAdd"
-                  >
+                  "label": <TeamDropdownListElement>
                     #
                     team-slug-2
-                  </div>,
+                  </TeamDropdownListElement>,
                   "searchKey": "team-slug-2",
                   "value": "2",
                 },
