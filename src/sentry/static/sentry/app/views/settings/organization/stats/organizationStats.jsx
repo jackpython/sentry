@@ -6,8 +6,6 @@ import LoadingIndicator from '../../../../components/loadingIndicator';
 import StackedBarChart from '../../../../components/stackedBarChart';
 import Pagination from '../../../../components/pagination';
 import Panel from '../../components/panel';
-import PanelBody from '../../components/panelBody';
-import PanelHeader from '../../components/panelHeader';
 import SettingsPageHeader from '../../components/settingsPageHeader';
 import TextBlock from '../../components/text/textBlock';
 
@@ -58,7 +56,6 @@ class OrganizationStats extends React.Component {
       projectsLoading,
       projectTotals,
       projectMap,
-      projectsError,
       pageLinks,
       organization,
     } = this.props;
@@ -105,23 +102,14 @@ class OrganizationStats extends React.Component {
           )}
         </div>
 
-        <Panel>
-          <PanelHeader>{t('Events by Project')}</PanelHeader>
-          <PanelBody>
-            {statsLoading || projectsLoading ? (
-              <LoadingIndicator />
-            ) : projectsError ? (
-              <LoadingError onRetry={this.fetchData} />
-            ) : (
-              <ProjectTable
-                projectTotals={projectTotals}
-                orgTotal={orgTotal}
-                organization={organization}
-                projectMap={projectMap}
-              />
-            )}
-          </PanelBody>
-        </Panel>
+        <ProjectTable
+          projectTotals={projectTotals}
+          orgTotal={orgTotal}
+          organization={organization}
+          projectMap={projectMap}
+          isLoading={statsLoading || projectsLoading}
+        />
+
         {pageLinks && <Pagination pageLinks={pageLinks} {...this.props} />}
       </div>
     );
