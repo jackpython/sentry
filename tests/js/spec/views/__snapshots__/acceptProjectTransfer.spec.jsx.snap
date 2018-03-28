@@ -1,0 +1,875 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AcceptProjectTransfer renders 1`] = `
+.glamor-4 {
+  font-size: 14px;
+  box-shadow: inset 0 -1px 0;
+  margin: -20px 0 30px;
+}
+
+.glamor-2 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.glamor-0 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.glamor-48 {
+  padding: 0.9em 0 0.9em 1.3em;
+  border-bottom: 1px solid;
+  -webkit-transition: background 0.15s;
+  transition: background 0.15s;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.glamor-48:last-child {
+  border-bottom: none;
+}
+
+.glamor-45 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.9em 0 0.9em 1.3em;
+  border-bottom: 1px solid;
+  -webkit-transition: background 0.15s;
+  transition: background 0.15s;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.glamor-45:last-child {
+  border-bottom: none;
+}
+
+.glamor-8 {
+  font-weight: normal;
+  margin-bottom: 0;
+  width: 50%;
+  padding-right: 10px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.glamor-40 {
+  width: 50%;
+  padding-left: 10px;
+}
+
+.glamor-37 {
+  box-sizing: border-box;
+  width: 50%;
+  padding-left: 10px;
+}
+
+.glamor-32 {
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.glamor-29 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+.glamor-16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+}
+
+.glamor-13 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+}
+
+.glamor-24 {
+  position: relative;
+  width: 36px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.glamor-21 {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 36px;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<AcceptProjectTransfer
+  location={Object {}}
+>
+  <SideEffect(DocumentTitle)
+    title="Accept Project Transfer - Sentry"
+  >
+    <DocumentTitle
+      title="Accept Project Transfer - Sentry"
+    >
+      <NarrowLayout>
+        <div
+          className="app"
+        >
+          <div
+            className="pattern-bg"
+          />
+          <div
+            className="container"
+          >
+            <div
+              className="box box-modal"
+            >
+              <div
+                className="box-header"
+              >
+                <a
+                  href="/"
+                >
+                  <span
+                    className="icon-sentry-logo"
+                  />
+                </a>
+              </div>
+              <div
+                className="box-content with-padding"
+              >
+                <SettingsPageHeading
+                  title="Approve Transfer Project Request"
+                >
+                  <Wrapper>
+                    <div
+                      className="glamor-4 glamor-5"
+                    >
+                      <Flex
+                        align="center"
+                      >
+                        <Base
+                          align="center"
+                          className="glamor-2"
+                        >
+                          <div
+                            className="glamor-2"
+                            is={null}
+                          >
+                            <Title>
+                              <div
+                                className="glamor-0 glamor-1"
+                              >
+                                Approve Transfer Project Request
+                              </div>
+                            </Title>
+                          </div>
+                        </Base>
+                      </Flex>
+                    </div>
+                  </Wrapper>
+                </SettingsPageHeading>
+                <p>
+                  <span
+                    key="8"
+                  >
+                    <span
+                      key="0"
+                    >
+                      Projects must be transferred to a specific 
+                    </span>
+                    <strong
+                      key="1"
+                    >
+                      Team
+                    </strong>
+                    <span
+                      key="2"
+                    >
+                       in order to be moved over to another 
+                    </span>
+                    <strong
+                      key="3"
+                    >
+                      Organization
+                    </strong>
+                    <span
+                      key="4"
+                    >
+                      . You can always change the team later under the 
+                    </span>
+                    <strong
+                      key="5"
+                    >
+                      Project Settings
+                    </strong>
+                    <span
+                      key="6"
+                    >
+                      .
+                    </span>
+                  </span>
+                </p>
+                <p>
+                  <span
+                    key="7"
+                  >
+                    <span
+                      key="0"
+                    >
+                      Please select which 
+                    </span>
+                    <strong
+                      key="1"
+                    >
+                      Team
+                    </strong>
+                    <span
+                      key="2"
+                    >
+                       you want for the project 
+                    </span>
+                    <span
+                      key="4"
+                    >
+                      project-slug
+                    </span>
+                    <span
+                      key="5"
+                    >
+                      .
+                    </span>
+                  </span>
+                </p>
+                <Form
+                  allowUndo={false}
+                  cancelLabel="Cancel"
+                  className="form-stacked"
+                  footerClass="form-actions align-right"
+                  initialData={
+                    Object {
+                      "team": "1",
+                    }
+                  }
+                  onSubmit={[Function]}
+                  onSubmitError={[Function]}
+                  onSubmitSuccess={[Function]}
+                  requireChanges={false}
+                  saveOnBlur={false}
+                  submitDisabled={false}
+                  submitLabel="Transfer Project"
+                  submitPriority="danger"
+                >
+                  <form
+                    className="form-stacked"
+                    onSubmit={[Function]}
+                  >
+                    <div>
+                      <Select2Field
+                        allowClear={false}
+                        allowEmpty={false}
+                        choices={
+                          Array [
+                            Array [
+                              "1",
+                              "#team-slug - org-slug",
+                            ],
+                          ]
+                        }
+                        escapeMarkup={true}
+                        field={[Function]}
+                        label="Team"
+                        multiple={false}
+                        name="team"
+                        placeholder="--"
+                        small={false}
+                        style={
+                          Object {
+                            "borderBottom": "none",
+                          }
+                        }
+                      >
+                        <InputField
+                          alignRight={false}
+                          allowClear={false}
+                          allowEmpty={false}
+                          choices={
+                            Array [
+                              Array [
+                                "1",
+                                "#team-slug - org-slug",
+                              ],
+                            ]
+                          }
+                          escapeMarkup={true}
+                          field={[Function]}
+                          label="Team"
+                          multiple={false}
+                          name="team"
+                          placeholder="--"
+                          small={false}
+                          style={
+                            Object {
+                              "borderBottom": "none",
+                            }
+                          }
+                        >
+                          <FormField
+                            alignRight={false}
+                            allowClear={false}
+                            allowEmpty={false}
+                            choices={
+                              Array [
+                                Array [
+                                  "1",
+                                  "#team-slug - org-slug",
+                                ],
+                              ]
+                            }
+                            escapeMarkup={true}
+                            field={[Function]}
+                            flexibleControlStateSize={false}
+                            hideErrorMessage={false}
+                            label="Team"
+                            multiple={false}
+                            name="team"
+                            placeholder="--"
+                            small={false}
+                            style={
+                              Object {
+                                "borderBottom": "none",
+                              }
+                            }
+                          >
+                            <Field
+                              alignRight={false}
+                              allowClear={false}
+                              allowEmpty={false}
+                              choices={
+                                Array [
+                                  Array [
+                                    "1",
+                                    "#team-slug - org-slug",
+                                  ],
+                                ]
+                              }
+                              disabled={false}
+                              escapeMarkup={true}
+                              field={[Function]}
+                              id="team"
+                              inline={true}
+                              label="Team"
+                              multiple={false}
+                              name="team"
+                              placeholder="--"
+                              required={false}
+                              small={false}
+                              style={
+                                Object {
+                                  "borderBottom": "none",
+                                }
+                              }
+                              visible={true}
+                            >
+                              <FieldWrapper
+                                hasControlState={true}
+                                inline={true}
+                                style={
+                                  Object {
+                                    "borderBottom": "none",
+                                  }
+                                }
+                              >
+                                <Component
+                                  className="glamor-48 glamor-44"
+                                  hasControlState={true}
+                                  inline={true}
+                                  style={
+                                    Object {
+                                      "borderBottom": "none",
+                                    }
+                                  }
+                                >
+                                  <Flex
+                                    className="glamor-48 glamor-44"
+                                    style={
+                                      Object {
+                                        "borderBottom": "none",
+                                      }
+                                    }
+                                  >
+                                    <Base
+                                      className="glamor-44 glamor-45"
+                                      style={
+                                        Object {
+                                          "borderBottom": "none",
+                                        }
+                                      }
+                                    >
+                                      <div
+                                        className="glamor-44 glamor-45"
+                                        is={null}
+                                        style={
+                                          Object {
+                                            "borderBottom": "none",
+                                          }
+                                        }
+                                      >
+                                        <FieldDescription
+                                          htmlFor="team"
+                                          inline={true}
+                                        >
+                                          <Component
+                                            className="glamor-8 glamor-9"
+                                            htmlFor="team"
+                                            inline={true}
+                                          >
+                                            <label
+                                              className="glamor-8 glamor-9"
+                                              htmlFor="team"
+                                            >
+                                              <FieldLabel>
+                                                <div
+                                                  className="glamor-6 glamor-7"
+                                                >
+                                                  Team
+                                                   
+                                                </div>
+                                              </FieldLabel>
+                                            </label>
+                                          </Component>
+                                        </FieldDescription>
+                                        <FieldControl
+                                          alignRight={false}
+                                          controlState={
+                                            <ControlState
+                                              model={
+                                                FormModel {
+                                                  "api": Client {},
+                                                  "errors": Object {},
+                                                  "fieldDescriptor": Map {
+                                                    "team" => Object {
+                                                      "alignRight": false,
+                                                      "allowClear": false,
+                                                      "allowEmpty": false,
+                                                      "children": [Function],
+                                                      "choices": Array [
+                                                        Array [
+                                                          "1",
+                                                          "#team-slug - org-slug",
+                                                        ],
+                                                      ],
+                                                      "escapeMarkup": true,
+                                                      "field": [Function],
+                                                      "flexibleControlStateSize": false,
+                                                      "hideErrorMessage": false,
+                                                      "label": "Team",
+                                                      "multiple": false,
+                                                      "name": "team",
+                                                      "placeholder": "--",
+                                                      "small": false,
+                                                      "style": Object {
+                                                        "borderBottom": "none",
+                                                      },
+                                                    },
+                                                  },
+                                                  "fieldState": Object {},
+                                                  "fields": Object {
+                                                    "team": "1",
+                                                  },
+                                                  "formState": undefined,
+                                                  "initialData": Object {
+                                                    "team": "1",
+                                                  },
+                                                  "options": Object {
+                                                    "allowUndo": false,
+                                                    "apiEndpoint": undefined,
+                                                    "apiMethod": undefined,
+                                                    "onFieldChange": undefined,
+                                                    "onSubmitError": [Function],
+                                                    "onSubmitSuccess": [Function],
+                                                    "saveOnBlur": false,
+                                                  },
+                                                  "snapshots": Array [
+                                                    Map {
+                                                      "team" => "1",
+                                                    },
+                                                  ],
+                                                }
+                                              }
+                                              name="team"
+                                            />
+                                          }
+                                          disabled={false}
+                                          errorState={
+                                            <Observer>
+                                              [Function]
+                                            </Observer>
+                                          }
+                                          flexibleControlStateSize={false}
+                                          inline={true}
+                                        >
+                                          <FieldControlErrorWrapper
+                                            inline={true}
+                                          >
+                                            <Component
+                                              className="glamor-40 glamor-36"
+                                              inline={true}
+                                            >
+                                              <Box
+                                                className="glamor-40 glamor-36"
+                                              >
+                                                <Base
+                                                  className="glamor-36 glamor-37"
+                                                >
+                                                  <div
+                                                    className="glamor-36 glamor-37"
+                                                    is={null}
+                                                  >
+                                                    <FieldControlWrapper>
+                                                      <Component
+                                                        className="glamor-32 glamor-28"
+                                                      >
+                                                        <Flex
+                                                          className="glamor-32 glamor-28"
+                                                        >
+                                                          <Base
+                                                            className="glamor-28 glamor-29"
+                                                          >
+                                                            <div
+                                                              className="glamor-28 glamor-29"
+                                                              is={null}
+                                                            >
+                                                              <FieldControlStyled
+                                                                alignRight={false}
+                                                              >
+                                                                <Component
+                                                                  alignRight={false}
+                                                                  className="glamor-16 glamor-12"
+                                                                >
+                                                                  <Box
+                                                                    className="glamor-16 glamor-12"
+                                                                  >
+                                                                    <Base
+                                                                      className="glamor-12 glamor-13"
+                                                                    >
+                                                                      <div
+                                                                        className="glamor-12 glamor-13"
+                                                                        is={null}
+                                                                      >
+                                                                        <Observer>
+                                                                          <Component
+                                                                            alignRight={false}
+                                                                            allowClear={false}
+                                                                            allowEmpty={false}
+                                                                            choices={
+                                                                              Array [
+                                                                                Array [
+                                                                                  "1",
+                                                                                  "#team-slug - org-slug",
+                                                                                ],
+                                                                              ]
+                                                                            }
+                                                                            disabled={false}
+                                                                            error={false}
+                                                                            escapeMarkup={true}
+                                                                            field={[Function]}
+                                                                            flexibleControlStateSize={false}
+                                                                            hideErrorMessage={false}
+                                                                            id="team"
+                                                                            initialData={
+                                                                              Object {
+                                                                                "team": "1",
+                                                                              }
+                                                                            }
+                                                                            innerRef={[Function]}
+                                                                            label="Team"
+                                                                            multiple={false}
+                                                                            name="team"
+                                                                            onBlur={[Function]}
+                                                                            onChange={[Function]}
+                                                                            onKeyDown={[Function]}
+                                                                            placeholder="--"
+                                                                            small={false}
+                                                                            style={
+                                                                              Object {
+                                                                                "borderBottom": "none",
+                                                                              }
+                                                                            }
+                                                                            value="1"
+                                                                          >
+                                                                            <select
+                                                                              className="form-control"
+                                                                              disabled={false}
+                                                                              onChange={[Function]}
+                                                                              value="1"
+                                                                            >
+                                                                              <option
+                                                                                key="1"
+                                                                                value="1"
+                                                                              >
+                                                                                #team-slug - org-slug
+                                                                              </option>
+                                                                            </select>
+                                                                          </Component>
+                                                                        </Observer>
+                                                                      </div>
+                                                                    </Base>
+                                                                  </Box>
+                                                                </Component>
+                                                              </FieldControlStyled>
+                                                              <FieldControlState
+                                                                flexibleControlStateSize={false}
+                                                              >
+                                                                <Component
+                                                                  className="glamor-24 glamor-20"
+                                                                  flexibleControlStateSize={false}
+                                                                >
+                                                                  <Flex
+                                                                    className="glamor-24 glamor-20"
+                                                                  >
+                                                                    <Base
+                                                                      className="glamor-20 glamor-21"
+                                                                    >
+                                                                      <div
+                                                                        className="glamor-20 glamor-21"
+                                                                        is={null}
+                                                                      >
+                                                                        <ControlState
+                                                                          model={
+                                                                            FormModel {
+                                                                              "api": Client {},
+                                                                              "errors": Object {},
+                                                                              "fieldDescriptor": Map {
+                                                                                "team" => Object {
+                                                                                  "alignRight": false,
+                                                                                  "allowClear": false,
+                                                                                  "allowEmpty": false,
+                                                                                  "children": [Function],
+                                                                                  "choices": Array [
+                                                                                    Array [
+                                                                                      "1",
+                                                                                      "#team-slug - org-slug",
+                                                                                    ],
+                                                                                  ],
+                                                                                  "escapeMarkup": true,
+                                                                                  "field": [Function],
+                                                                                  "flexibleControlStateSize": false,
+                                                                                  "hideErrorMessage": false,
+                                                                                  "label": "Team",
+                                                                                  "multiple": false,
+                                                                                  "name": "team",
+                                                                                  "placeholder": "--",
+                                                                                  "small": false,
+                                                                                  "style": Object {
+                                                                                    "borderBottom": "none",
+                                                                                  },
+                                                                                },
+                                                                              },
+                                                                              "fieldState": Object {},
+                                                                              "fields": Object {
+                                                                                "team": "1",
+                                                                              },
+                                                                              "formState": undefined,
+                                                                              "initialData": Object {
+                                                                                "team": "1",
+                                                                              },
+                                                                              "options": Object {
+                                                                                "allowUndo": false,
+                                                                                "apiEndpoint": undefined,
+                                                                                "apiMethod": undefined,
+                                                                                "onFieldChange": undefined,
+                                                                                "onSubmitError": [Function],
+                                                                                "onSubmitSuccess": [Function],
+                                                                                "saveOnBlur": false,
+                                                                              },
+                                                                              "snapshots": Array [
+                                                                                Map {
+                                                                                  "team" => "1",
+                                                                                },
+                                                                              ],
+                                                                            }
+                                                                          }
+                                                                          name="team"
+                                                                        >
+                                                                          <Observer />
+                                                                          <Observer />
+                                                                        </ControlState>
+                                                                      </div>
+                                                                    </Base>
+                                                                  </Flex>
+                                                                </Component>
+                                                              </FieldControlState>
+                                                            </div>
+                                                          </Base>
+                                                        </Flex>
+                                                      </Component>
+                                                    </FieldControlWrapper>
+                                                    <Observer />
+                                                  </div>
+                                                </Base>
+                                              </Box>
+                                            </Component>
+                                          </FieldControlErrorWrapper>
+                                        </FieldControl>
+                                      </div>
+                                    </Base>
+                                  </Flex>
+                                </Component>
+                              </FieldWrapper>
+                            </Field>
+                          </FormField>
+                        </InputField>
+                      </Select2Field>
+                    </div>
+                    <div
+                      className="form-actions align-right"
+                      style={
+                        Object {
+                          "marginTop": 25,
+                        }
+                      }
+                    >
+                      <Observer>
+                        <Button
+                          disabled={false}
+                          priority="danger"
+                          type="submit"
+                        >
+                          <button
+                            className="button button-danger"
+                            disabled={false}
+                            onClick={[Function]}
+                            role="button"
+                            type="submit"
+                          >
+                            <Flex
+                              align="center"
+                              className="button-label"
+                            >
+                              <Base
+                                align="center"
+                                className="button-label glamor-2"
+                              >
+                                <div
+                                  className="button-label glamor-2"
+                                  is={null}
+                                >
+                                  Transfer Project
+                                </div>
+                              </Base>
+                            </Flex>
+                          </button>
+                        </Button>
+                      </Observer>
+                    </div>
+                  </form>
+                </Form>
+              </div>
+            </div>
+          </div>
+          <Footer>
+            <footer>
+              <div
+                className="container"
+              >
+                <div
+                  className="pull-right"
+                >
+                  <a
+                    className="hidden-xs"
+                    href="/api/"
+                  >
+                    API
+                  </a>
+                  <a
+                    href="/docs/"
+                  >
+                    Docs
+                  </a>
+                  <a
+                    className="hidden-xs"
+                    href="https://github.com/getsentry/sentry"
+                    rel="noreferrer"
+                  >
+                    Contribute
+                  </a>
+                </div>
+                <a
+                  className="icon-sentry-logo"
+                  href="/"
+                />
+              </div>
+            </footer>
+          </Footer>
+        </div>
+      </NarrowLayout>
+    </DocumentTitle>
+  </SideEffect(DocumentTitle)>
+</AcceptProjectTransfer>
+`;
