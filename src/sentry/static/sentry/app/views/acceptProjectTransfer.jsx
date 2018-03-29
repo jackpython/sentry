@@ -24,7 +24,7 @@ class AcceptProjectTransfer extends AsyncView {
       method: 'POST',
       data: {
         data: this.props.location.query.data,
-        team: team,
+        team,
       },
       success: () => {
         window.location.assign('/');
